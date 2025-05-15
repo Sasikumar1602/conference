@@ -24,7 +24,7 @@ export default function About() {
 
         <div className="about-right">
           <p className="about-right-text1">
-            KONFERO IT'S A MANIFESTATION OF OUR COMMITMENT TO <br />
+            KONFERO IT&rsquo;S A MANIFESTATION OF OUR COMMITMENT TO <br />
             FOSTER KNOWLEDGE EXCHANGE, INSPIRE INNOVATION, <br />
             AND BRING PEOPLE TOGETHER.
           </p>

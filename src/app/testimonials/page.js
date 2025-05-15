@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
+import Image from 'next/image';
 
 export default function Testimonials() {
   return (
@@ -84,7 +85,7 @@ export default function Testimonials() {
  <img src='below-testimonial.jpg' width={1500} height={700}></img>
  <div className='inside-image'>
 <h1>CONNECT WITH INDUSTRY <br/> LEADERS - GET STARTED!</h1>
-<p>Don't miss out on the connect,learn and grow.Join the <b/> conversation at our upcoming events and conferences.</p>
+<p>Don&rsquo;t miss out on the connect,learn and grow.Join the <b/> conversation at our upcoming events and conferences.</p>
 <div className='buttns'>
   <button className='start'>GET STARTED NOW</button>
   <button className='learn'>LEARN MORE</button>
