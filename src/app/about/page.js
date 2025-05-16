@@ -66,7 +66,7 @@ export default function About() {
         <div className="speakers-grid">
           {/* Speaker 1 */}
           <div className="speaker-card">
-            <img src="speaker1.png" alt="Mellisa Brown" />
+            <img src="speaker1.png" alt="Mellisa Brown" width={200} height={350} />
             <div className="speaker-info">
               <h3>MELLISA BROWN</h3>
               <p>CEO GlobalTech</p>
@@ -75,7 +75,7 @@ export default function About() {
 
           {/* Speaker 2 */}
           <div className="speaker-card">
-            <img src="speaker2.png" alt="Michael Dunn" />
+            <img src="speaker2.png" alt="Michael Dunn" width={200} height={350}/>
             <div className="speaker-info">
               <h3>MICHAEL DUNN</h3>
               <p>CEO Stellar Enterprises</p>
@@ -84,7 +84,7 @@ export default function About() {
 
           {/* Speaker 3 */}
           <div className="speaker-card">
-            <img src="speaker3.png" alt="Lisa Taylor" />
+            <img src="speaker3.png" alt="Lisa Taylor" width={200} height={350}/>
             <div className="speaker-info">
               <h3>LISA TAYLOR</h3>
               <p>CEO Phoenix Ventures</p>
@@ -92,7 +92,7 @@ export default function About() {
           </div>
            {/* Speaker 4 */}
           <div className="speaker-card">
-            <img src="speaker4.png" alt="Lisa Taylor" />
+            <img src="speaker4.png" alt="Lisa Taylor" width={200} height={350} />
             <div className="speaker-info">
               <h3>JAMES VASANTH</h3>
               <p>CEO Vasanth & co</p>
@@ -100,7 +100,7 @@ export default function About() {
           </div>
            {/* Speaker 5 */}
           <div className="speaker-card">
-            <img src="speaker5.png" alt="Lisa Taylor" />
+            <img src="speaker5.png" alt="Lisa Taylor" width={200} height={350}/>
             <div className="speaker-info">
               <h3>Clare Mark</h3>
               <p>CEO Mark Solutions</p>
@@ -108,7 +108,7 @@ export default function About() {
           </div>
            {/* Speaker 6 */}
           <div className="speaker-card">
-            <img src="speaker6.png" alt="Lisa Taylor" />
+            <img src="speaker6.png" alt="Lisa Taylor" width={200} height={350}/>
             <div className="speaker-info">
               <h3>MARK ANTONY</h3>
               <p>CEO VFF Film factory</p>
