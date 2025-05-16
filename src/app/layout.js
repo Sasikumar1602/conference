@@ -1,7 +1,6 @@
-// app/layout.    js
+// app/layout.js
 import Link from 'next/link';
-import Image from 'next/image';
-import './globals.css'; // Import global styles
+import './globals.css';
 
 export default function Layout({ children }) {
   return (
@@ -9,7 +8,7 @@ export default function Layout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Conference </title>
+        <title>Conference</title>
       </head>
       <body>
         <nav>
@@ -17,13 +16,12 @@ export default function Layout({ children }) {
           <Link href="/about">About</Link> 
           <Link href="/Schedule">Schedules</Link>
           <Link href="/testimonials">Testimonial</Link>
-          <Link href="/blog">Blog</Link>
+          {/* Add Create Ticket Button */}
+          <Link href="/tickets/register">
+            <button className="ticket">Get ticket Now</button>
+          </Link>
         </nav>
-        
-          <button className="ticket">
-            Get Ticket Now
-          </button>
-        
+
         <main>{children}</main>
       </body>
     </html>

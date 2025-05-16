@@ -7,7 +7,7 @@ export default function Navbar() {
       <Link href="/about">About</Link> {" "}
       <Link href="/Schedule">Schedules</Link>{" "}
       <Link href="/testimonials">Testimonial</Link>{" "}
-      <Link href="/blog">Blog</Link>
+      
     </nav>
   );
 }

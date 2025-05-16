@@ -128,6 +128,66 @@ export default function Testimonials() {
         <p className="author">by John Doe • September 19, 2024</p>
       </div>
     </div>
+
+
+    <footer className="footer">
+  <div className="footer-top">
+    <div>
+      <div >KONFERO</div>
+      <div className="footer-desc">
+        Events and conferences are hubs of learning, innovation, and collaboration.
+      </div>
+    </div>
+
+    <div className="newsletter">
+      <input type="email" placeholder="Enter your email" required />
+      <button>SUBSCRIBE</button>
+    </div>
+  </div>
+
+  <div className="footer-bottom">
+    <div className="footer-column">
+      <h4>MENU</h4>
+      <ul>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div className="footer-column">
+      <h4>USEFUL LINKS</h4>
+      <ul>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+        <li>Disclaimer</li>
+        <li>FAQ</li>
+      </ul>
+    </div>
+
+    <div className="footer-column">
+      <h4>FOLLOW US</h4>
+      <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>LinkedIn</li>
+      </ul>
+    </div>
+
+    <div className="footer-column">
+      <h4>CONTACT US</h4>
+      <div className="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M12 12c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        <div><strong>Email</strong>support@konfero.com</div>
+      </div>
+      <div className="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.07 15.07 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.2.48 2.5.74 3.81.74a1 1 0 011 1v3.5a1 1 0 01-1 1C9.61 21.5 2.5 14.39 2.5 6a1 1 0 011-1h3.5a1 1 0 011 1c0 1.31.26 2.61.74 3.81a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
+        <div><strong>Phone</strong>+123-456-7890</div>
+      </div>
+    </div>
+  </div>
+</footer>
  </div>
    
   );

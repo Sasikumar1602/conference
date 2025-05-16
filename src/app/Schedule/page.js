@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa';
 
 const testimonials = [
@@ -57,7 +58,7 @@ export default function Schedule() {
               mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat leo eget bibendum.
             </p>
             <div className="buttons">
-              <button className="btn buy">BUY TICKET</button>
+              <button className="btn buy"> <Link href='/tickets/register'>BUY TICKET </Link></button>
               <button className="btn read">READ MORE</button>
             </div>
           </div>
@@ -89,7 +90,7 @@ export default function Schedule() {
               mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat leo eget bibendum.
             </p>
             <div className="buttons">
-              <button className="btn buy">BUY TICKET</button>
+              <button className="btn buy"><Link href='/tickets/register'>BUY TICKET </Link></button>
               <button className="btn read">READ MORE</button>
             </div>
           </div>
@@ -121,7 +122,7 @@ export default function Schedule() {
               mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat leo eget bibendum.
             </p>
             <div className="buttons">
-              <button className="btn buy">BUY TICKET</button>
+              <button className="btn buy"><Link href='/tickets/register'>BUY TICKET </Link></button>
               <button className="btn read">READ MORE</button>
             </div>
           </div>
